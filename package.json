@@ -1,6 +1,6 @@
 {
   "name": "hexo-site-auth",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "the plugin for site auth",
   "main": "index.js",
   "scripts": {
