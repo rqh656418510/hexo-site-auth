@@ -1,11 +1,21 @@
 {
   "name": "hexo-site-auth",
-  "version": "0.0.8",
-  "description": "the plugin for auth site",
+  "version": "0.0.9",
+  "description": "the plugin for site auth",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "rqh656418510",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/rqh656418510/hexo-site-auth",
+  "keywords": [
+    "hexo",
+    "site",
+    "auth"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rqh656418510/hexo-site-auth"
+  }
 }
