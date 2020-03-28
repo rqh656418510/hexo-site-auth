@@ -32,6 +32,14 @@ var google_adsense_content = site_auth.google_adsense_content;
 var sogou_path = site_auth.sogou_path;
 var sogou_content = site_auth.sogou_content;
 
+// Bing ZhanZhang
+var bing_path = site_auth.bing_path;
+var bing_content = site_auth.bing_content;
+
+// Bing Adsense
+var bing_adsense_path = site_auth.bing_adsense_path;
+var bing_adsense_content = site_auth.bing_adsense_content;
+
 if(weixin_path && weixin_content){
   files.push({
     path: weixin_path,
@@ -64,6 +72,20 @@ if(sogou_path && sogou_content){
   files.push({
     path: sogou_path,
     data: sogou_content
+  });
+}
+
+if (bing_path && bing_content) {
+  files.push({
+    path: bing_path,
+    data: bing_content
+  });
+}
+
+if (bing_adsense_path && bing_adsense_content) {
+  files.push({
+    path: bing_adsense_path,
+    data: bing_adsense_content
   });
 }
 
